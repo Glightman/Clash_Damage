@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Clash';
+    src: url('../fonts/clash.ttf') format('truetype');  
+    font-weight: normal;
+    font-style: normal;
+}   
+ 
+body {
+    background:url(../img/clash_back.png);
+    background-size: 100%;
+    font-family: Clash;
+}
+
+#box_pop{
+    margin: 20px;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    background-color: #fc9b09;
+    justify-content: center;
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 50;
+    left: 50;
+    display: none;
+    /* opacity: 0; */
+}
+
+
+
+.titulo{
+    margin-top: 100px;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+#fechar img{
+    width: 20px;
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#fechar {
+    float: right;
+    background-color: transparent;
+    border: transparent;
+}
+
+.itens_pop img{
+    width: 200px;
+    /* margin-top: 5px; */
+    margin-left: 40px;
+}
+
+
+
+.calculadora-dano {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    background-color: rgba(243, 222, 33, 0.308);
+    backdrop-filter: blur(3px);
+    box-shadow: 3px 3px 10px black;
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    border: 1px solid #878787;
+    border-radius: 20px;
+    background-color: rgba(243, 231, 126, 0.596);
+    justify-content: center;
+}
+
+.button1{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+}
