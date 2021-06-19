@@ -17,23 +17,44 @@ body {
     border-radius: 20px;
     background-color: #fc9b09;
     justify-content: center;
-    width: 650px;
+    width: 520px;
     height: 400px;
     position: absolute;
     top: 0;
     right: 50;
     left: 50;
     display: none;
+    backdrop-filter: blur(3px);
+    box-shadow: 3px 3px 10px black;
     /* opacity: 0; */
 }
 
+.armas{
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
 
+#espada{
+    width: 100px;
+    margin: 10px;
+}
 
+#canhao{
+    width: 100px;
+    margin: 10px;
+}
+
+#bola_fogo{
+    width: 100px;
+    margin: 10px;
+}
+
+/* 
 .titulo{
     margin-top: 100px;
     margin-left: 55px;
     font-weight: bold;
-}
+} */
 
 #fechar img{
     width: 20px;
@@ -49,9 +70,8 @@ body {
 }
 
 .itens_pop img{
-    width: 200px;
-    /* margin-top: 5px; */
-    margin-left: 40px;
+    margin-left: 180px;
+    width: 150px;
 }
 
 
