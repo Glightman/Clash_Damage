@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Clash';
-    src: url('../fonts/clash.ttf') format('truetype');  
+    src: url('clash.ttf') format('truetype');  
     font-weight: normal;
     font-style: normal;
 }   
  
 body {
-    background:url(../img/clash_back.png);
+    background:url(clash_back.png);
     background-size: 100%;
     font-family: Clash;
 }

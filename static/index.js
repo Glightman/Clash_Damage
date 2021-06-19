@@ -22,19 +22,19 @@ function fecharDiv(){
 
 botaoRei.addEventListener('click', () => {
   titulo.innerHTML = 'Rei Bárbaro';
-  img.setAttribute('src', 'img/rei_barbaro.png');
+  img.setAttribute('src', '../static/rei_barbaro.png');
   abrirDiv()
 })
 
 botaoGolem .addEventListener('click', () => {
   titulo.innerHTML = 'Golem';
-  img.setAttribute('src', 'img/Golem.png');
+  img.setAttribute('src', '../static/Golem.png');
   abrirDiv()
 })
 
 botaoArcher.addEventListener('click', () => {
   titulo.innerHTML = 'Archer';
-  img.setAttribute('src', 'img/Archer.png');
+  img.setAttribute('src', '../static/Archer.png');
   abrirDiv()
 })
 
