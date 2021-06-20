@@ -7,7 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Damage Calculator</title>
     <link rel="stylesheet" type="text/css" href="static/style.css" />
-
+    <style>
+    @font-face {
+        font-family: 'Clash';
+        src: url('../static/clash.ttf') format('truetype');  
+        font-weight: normal;
+        font-style: normal;
+    } 
+    </style>
+    
 </head>
 
 <body>
@@ -59,23 +67,17 @@
                     </div>
 
                     <div class="armas">
-                        <figure >
-                            <img id="espada" src="../static/espada.png" alt="">
-                            <figcaption>Espada</figcaption>
-                        </figure>
+                        <h3 id="titulo_armas">Escolha a arma para atacar</h3>
+                        <button id="botao1"><img id="espada" src="../static/espada.png" alt=""></button>                                                            
+                        <button id="botao2"><img id="canhao" src="../static/Canhão.png" alt=""></button>
                         
-                        <figure>
-                            <img id="canhao" src="../static/Canhão.png" alt="">
-                            <figcaption>Canhão</figcaption>
-                        </figure>
-                        <figure>
-                            <img id="bola_fogo" src="../static/bola_de_fogo.png" alt="">
-                            <figcaption>Bola de Fogo</figcaption>
-                        </figure>
-                        
-                        
+                        <button id="botao3"><img id="bola_fogo" src="../static/bola_de_fogo.png" alt=""></button>
                     </div>
-                
+                   
+                    <div class="botoes">
+                        <button id="voltar" style="font-family: Clash;">Voltar</button>
+                        <button id="calcular" style="font-family: Clash;">Calcular Dano</button>
+                    </div>
                 </div>
 
                 
